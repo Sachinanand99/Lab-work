@@ -8,6 +8,6 @@ int main(){
         num = num/10;
         sum += dig;
     }
-    printf("%d is the sum of digixt.", sum);
+    printf("%d is the sum of digit.", sum);
     return 0;
 }
