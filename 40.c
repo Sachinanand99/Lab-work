@@ -1,11 +1,17 @@
 #include<stdio.h>
-int main(){
-    int fact=1, num;
-    printf("Enter any number : ");
-    scanf("%d", &num);
-    for(int i=1; i<=num; i++){
-        fact*=i;
+int factorial(int x){
+    if(x==1 || x==0){
+        return 1;
     }
-    printf("Factorial of the number is %d", fact);
+    else{
+        return x*factorial(x-1);
+    }
+}
+int main(){
+    int a,factor;
+    printf("Enter any number : ");
+    scanf("%d", &a);
+    factor = factorial(a);
+    printf("the factorial of %d is : %d \n",a,factor);
     return 0;
 }
