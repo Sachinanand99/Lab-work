@@ -60,10 +60,10 @@ int main(){
             printf("Factorial value of %d = %d\n", num, fact);
         }
         else if(opt==4){
-            printf("You have given wrong input try again.")
             init=1;
         }
         else{
+            printf("You have given wrong input try again.");
             continue;
         }
     }
