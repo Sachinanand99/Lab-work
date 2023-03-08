@@ -6,7 +6,7 @@ int main(){
     scanf("%c", &gen);
     printf("Enter the age : ");
     scanf("%d", &age);
-    printf("Enter 1 for excellent health\n2 for poor health: ");
+    printf("Enter 1 for excellent health\n2 for poor health : ");
     scanf("%d", &health);
     printf("Enter 1 if you live in city \n2 if you live in village : ");
     scanf("%d", &loc);

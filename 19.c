@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
     char gen, qual;
-    int yos, sal;
+    int yos, sal= 0;
     printf("Enter your gender(m/f), qual(g, p), year of service : ");
-    scanf("%c%c%d", &gen, &qual, &yos);
+    scanf("%c %c %d", &gen, &qual, &yos);
     if(gen == 'm'&& yos>=10&& qual=='p'){
         sal = 15000;
     }
