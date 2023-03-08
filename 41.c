@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int i, j, k, l, m;
-    char a[]={'a', 'b', 'c', 'd', 'e', 'f', 'g'};
+    char a[]={'A', 'B', 'C', 'D', 'E', 'F', 'G'};
     for (i = 0; i<=6; i++){
         for(j=0; j<7-i; j++){
             if (j>5){
