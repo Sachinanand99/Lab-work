@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int num, sum = 0, dig1, dig2;
+    int num, sum = 0, dig1;
     printf("Enter a four digit number : ");
     scanf("%d", &num);
     dig1 = num%10;
