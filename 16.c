@@ -7,11 +7,12 @@ int main(){
     if(qty>1000){
         tot = qty*rate;
         dis=0.10*tot;
-        printf("your total dis is %.2f \n",dis);
+        printf("your total discount is %.2f \n",dis);
     }
-    else
+    else{
         printf("there is no discount on your purchase \n");
         tot=rate*qty-dis;
         printf("your total expence is : %.2f \n",tot);
-        return 0;
+    }
+    return 0;
 }
