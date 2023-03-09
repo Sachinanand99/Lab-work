@@ -9,7 +9,7 @@ int main(){
     float b, res;
     printf("Enter an integer : ");
     scanf("%d", &a);
-    printf("Enter an float number : ");
+    printf("Enter a float number : ");
     scanf("%f", &b);
     res = prod(a, b);
     printf("Product of these numbers is %.2f", res);
