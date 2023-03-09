@@ -26,13 +26,13 @@ int main(){
             printf("Enter the side length of square : ");
             scanf("%f", &side);
             area = side*side;
-            printf("Area of Square if %.2f", area);
+            printf("Area of Square is %.2f", area);
             break;
         case 4:
             printf("Enter the length and breadth of rectangle : ");
             scanf("%f%f", &l, &b);
             area=l*b;
-            printf("Area of rectangle if %.2f", area);
+            printf("Area of rectangle is %.2f", area);
             break;
         case 0:
             init=1;
